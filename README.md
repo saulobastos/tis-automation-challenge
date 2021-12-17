@@ -25,13 +25,14 @@
 ```                                                                                                 
 ---
 # Desafio 💻
-- Provisionar uma estrutura com IaC utilizando Terraform, podendo utilizar um provedor de nuvem pública ou ser executado localmente.
+Crie um pipeline de integração contínua utilizando tecnologias como Azure DevOps, TravisCI, Github Actions ou algum outro de sua preferência. O seu pipeline deve:
+- Provisionar uma estrutura com IaC utilizando [Terraform](https://www.terraform.io/) ou outra ferramenta, podendo utilizar um provedor de nuvem pública ou ser executado localmente.
   - 2 hosts Windows
   - 2 hosts Linux
-- Utilizar Ansible para configurar:
+- Utilizar [Ansible](https://docs.ansible.com/) ou outra ferramenta para configurar:
   - Nas estruturas Linux, provisionar um Apache ou um NGINX com um Hello World.
   - Nas estruturas Windows: Instale o MSI do Apache, e provisione o mesmo Hello World utilizado no Linux.
-	<small>dica: Crie um arquivo ‘index.html’ no repositório, e copie ele para os diretórios necessários.</small>
+  <small>dica: Crie um arquivo ‘index.html’ no repositório, e copie ele para os diretórios necessários.</small>
 **IMPORTANTE**: Inclua no README do projeto melhorias que seriam necessárias caso você tivesse mais tempo para entregar e desafios encontrados durante a execução.
 
 ---
