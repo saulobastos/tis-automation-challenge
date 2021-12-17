@@ -30,8 +30,8 @@ Crie um pipeline de integração contínua utilizando tecnologias como Azure Dev
   - 2 hosts Windows
   - 2 hosts Linux
 - Utilizar [Ansible](https://docs.ansible.com/) ou outra ferramenta para configurar:
-  - Nas estruturas Linux, provisionar um Apache ou um NGINX com um Hello World.
-  - Nas estruturas Windows: Instale o MSI do Apache, e provisione o mesmo Hello World utilizado no Linux.
+  - Nos hosts Linux, provisionar um Apache ou um NGINX com um Hello World.
+  - Nos hosts Windows: Instale o MSI do Apache, e provisione o mesmo Hello World utilizado no Linux.
   <small>dica: Crie um arquivo ‘index.html’ no repositório, e copie ele para os diretórios necessários.</small>
 - Desenvolver uma API, na linguagem deseja, que retorne uma mensagem de "Hello World!" tanto em uma requisição GET como POST.
 
