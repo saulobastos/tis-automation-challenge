@@ -33,7 +33,7 @@ Crie um pipeline de integração contínua utilizando tecnologias como Azure Dev
   - Nas estruturas Linux, provisionar um Apache ou um NGINX com um Hello World.
   - Nas estruturas Windows: Instale o MSI do Apache, e provisione o mesmo Hello World utilizado no Linux.
   <small>dica: Crie um arquivo ‘index.html’ no repositório, e copie ele para os diretórios necessários.</small>
-- Desenvolver uma API, na linguagem deseja, que retorno uma mensagem de "Hello World!" tanto em uma requisição GET como POST.
+- Desenvolver uma API, na linguagem deseja, que retorne uma mensagem de "Hello World!" tanto em uma requisição GET como POST.
 
 **IMPORTANTE**: Inclua no README do projeto melhorias que seriam necessárias caso você tivesse mais tempo para entregar e desafios encontrados durante a execução.
 
